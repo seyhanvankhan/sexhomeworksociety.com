@@ -4,21 +4,22 @@
     <meta charset="utf-8">
 
     <title>{{ title }}</title>
-    <meta name="description" content="Sex Homework Society is a collective exploration of sex and intimacy through 10 weekly circles and curated homework on a broad range of sex-related topics.">
+    {% set description = "Sex Homework Society is a collective exploration of sex and intimacy through 10 weekly circles and curated homework on a broad range of sex-related topics." %}
+    <meta name="description" content="{{ description }}">
 
     <!-- Facebook Open Graph data -->
     <meta property="og:title" content="{{ title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sexhomeworksociety.com" />
     <meta property="og:image" content="https://sexhomeworksociety.com/og-image.png" />
-    <meta property="og:description" content="Sex Homework Society is a collective exploration of sex and intimacy through 10 weekly circles and curated homework on a broad range of sex-related topics." />
+    <meta property="og:description" content="{{ description }}" />
     <meta property="og:site_name" content="Sex Homework Society" />
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="app">
     <meta name="twitter:text:title" content="{{ title }}">
     <meta name="twitter:title" content="{{ title }}">
-    <meta name="twitter:description" content="Sex Homework Society is a collective exploration of sex and intimacy through 10 weekly circles and curated homework on a broad range of sex-related topics.">
+    <meta name="twitter:description" content="{{ description }}">
     <meta name="twitter:image:src" content="https://sexhomeworksociety.com/og-image.png">
 
     <meta name="author" content="Alizeh Khan & Seyhan Van Khan">
@@ -29,7 +30,9 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="manifest" href="/manifest.webmanifest">
 
-    <link rel="stylesheet" href="/assets/stylesheets/style.css" >
+    {% assets "scss_all" %}
+      <link rel=stylesheet type=text/css href="{{ ASSET_URL }}">
+    {% endassets %}
     <script src="/assets/jquery/jquery-3.5.1.min.js"></script>
   </head>
 

@@ -1,8 +1,8 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
+$font-stack: Avenir, sans-serif;
+$primary-color: #FFFFFF;
 
 body {
-  font: 100% $font-stack;
+  font-family: $font-stack;
   color: $primary-color;
 }
 // you can get rid of this stuff alizeh this is just filler shit

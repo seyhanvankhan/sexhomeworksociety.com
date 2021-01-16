@@ -9,14 +9,17 @@
 from socket import gethostbyname_ex, gethostname
 
 from flask import Flask, redirect, render_template, request, send_from_directory, url_for
-from sass import compile as sass_compile
+from flask_assets import Environment, Bundle
 
 
 ################################### INIT APP ###################################
 
 
 app = Flask(__name__, static_url_path='/assets', static_folder='assets')
-sass_compile(dirname=('assets/stylesheets/scss', 'assets/stylesheets/css'), output_style='compressed')
+assets = Environment(app)
+assets.url = app.static_url_path
+scss = Bundle('stylesheets/scss/*.scss', filters='pyscss', output='stylesheets/css/all.css')
+assets.register('scss_all', scss)
 
 
 ##################################### INDEX ####################################
