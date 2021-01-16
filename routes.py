@@ -27,6 +27,82 @@ def index():
 	return render_template("index.html")
 
 
+##################################### ABOUT ####################################
+
+
+@app.route('/about')
+def about():
+	return render_template("about.html")
+
+
+############################ COURSES - SHS SEASON 1 ############################
+
+
+@app.route('/courses/sex-homework-society-season-1')
+def shs_season1():
+	return render_template("courses/shs-season-1.html")
+
+
+############################ COURSES - SHS SEASON 2 ############################
+
+
+@app.route('/courses/sex-homework-society-season-2')
+def shs_season2():
+	return render_template("courses/shs-season-2.html")
+
+
+############################ COURSES - BOUNDARIES ############################
+
+
+@app.route('/courses/boundaries')
+def boundaries():
+	return render_template("courses/boundaries.html")
+
+
+################################### COACHING ###################################
+
+
+@app.route('/coaching')
+def coaching():
+	return render_template("coaching.html")
+
+
+################################## MEMBERSHIP ##################################
+
+
+@app.route('/membership')
+def membership():
+	return render_template("membership.html")
+
+
+##################################### APPLY ####################################
+
+
+@app.route('/apply')
+def apply():
+	return render_template("apply.html")
+
+
+##################################### TERMS ####################################
+
+
+@app.route('/terms')
+@app.route('/termsconditions')
+@app.route('/terms-conditions')
+def terms():
+	return render_template("terms.html")
+
+
+##################################### PRIVACY POLICY ####################################
+
+
+@app.route('/privacy')
+@app.route('/privacypolicy')
+@app.route('/privacy-policy')
+def privacy():
+	return render_template("privacy.html")
+
+
 ############################## FAVICONS & SITEMAP ##############################
 
 
