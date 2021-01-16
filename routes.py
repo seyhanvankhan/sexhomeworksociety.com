@@ -18,7 +18,7 @@ from flask_assets import Environment, Bundle
 app = Flask(__name__, static_url_path='/assets', static_folder='assets')
 assets = Environment(app)
 assets.url = app.static_url_path
-scss = Bundle('stylesheets/*.scss', filters='pyscss', output='stylesheets/compiled.css')
+scss = Bundle('stylesheets/**/*.scss', filters='pyscss', output='stylesheets/compiled.css')
 assets.register('scss_all', scss)
 
 
