@@ -2,7 +2,7 @@
 
 Sex Homework Society is a collective exploration of sex and intimacy through 10 weekly circles and curated homework on a broad range of sex-related topics.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=seyhanvankhan)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=seyhanvankhan&langs_count=10)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=alizehkhan&repo=wandern)](https://github.com/anuraghazra/github-readme-stats)
 
