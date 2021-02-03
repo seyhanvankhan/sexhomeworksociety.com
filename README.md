@@ -4,6 +4,8 @@ Sex Homework Society is a collective exploration of sex and intimacy through 10 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=seyhanvankhan)](https://github.com/anuraghazra/github-readme-stats)
 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=seyhanvankhan&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+
 
 ## Integrations
 * [**Airtable API**](https://airtable.com/api) to store emails
