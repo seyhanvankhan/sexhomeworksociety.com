@@ -1,0 +1,19 @@
+.menu {
+  list-style-type: none;
+}
+
+.menu li {
+  display: inline;
+  padding: 0 24px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.menu li a {
+  color: white;
+}

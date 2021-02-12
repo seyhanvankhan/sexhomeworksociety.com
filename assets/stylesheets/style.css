@@ -1,0 +1,43 @@
+@import url(components/navbar.css);
+@import url(components/container.css);
+@import url(components/highlights.css);
+@import url(components/banner.css);
+@import url(components/logo.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  color: #333333;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
