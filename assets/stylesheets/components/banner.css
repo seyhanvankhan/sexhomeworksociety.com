@@ -9,11 +9,13 @@
 
 .headline {
   color: white;
-  width: 440px;
+  width: 480px;
+  margin-top: 120px;
 }
 
 .headline p {
   font-size: 20px;
+  margin: 32px 0 40px 0;
 }
 
 .headline a {
