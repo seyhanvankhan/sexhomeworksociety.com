@@ -1,8 +1,23 @@
-$font-stack: Avenir, sans-serif;
-$primary-color: green;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
 
-body {
-  font-family: $font-stack;
-  color: $primary-color;
+// @import url(components/privacy.css);
+
+// FONTS
+$headers-font: 'Libre Baskerville', serif;
+$body-font: 'Open Sans', sans-serif;
+
+// COLOURS
+$primary-color: #EB5757;
+$grey700: #333333;
+$grey500: #4f4f4f;
+$grey400: #828282;
+$grey200: #e0e0e0;
+$grey100: #f2f2f2;
+
+p {
+  font-family: $sans-serif;
 }
-// you can get rid of this stuff alizeh this is just filler shit
+
+h1 h2 h3 {
+  font-family: #headers-font;
+}
