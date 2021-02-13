@@ -8,3 +8,8 @@ footer p {
   font-size: 18px;
   margin: 16px 0;
 }
+
+.footer-divider {
+  margin: 56px;
+  color: #828282;
+}
