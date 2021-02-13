@@ -1,0 +1,26 @@
+.input-text {
+  border: none;
+  padding: 16px 0 16px 24px;
+  font-size: 16px;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 16px 0 0 16px;
+  width: 240px;
+}
+
+.subscribe {
+  background: #EB5757;
+  padding: 16px 20px;
+  border: none;
+  font-size: 16px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  border-radius: 0 16px 16px 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 24px;
+}

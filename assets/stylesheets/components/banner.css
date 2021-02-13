@@ -1,6 +1,6 @@
 .banner-background {
   min-height: 720px;
-  height: 100vh;
+  height: 90vh;
   background-image: url(../../images/home-banner.png);
   background-size: cover;
   background-position: center;
@@ -16,11 +16,4 @@
 .headline p {
   font-size: 20px;
   margin: 32px 0 40px 0;
-}
-
-.headline a {
-  padding: 16px 24px;
-  background: #EB5757;
-  border-radius: 40px;
-  color: white;
 }

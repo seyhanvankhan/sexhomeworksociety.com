@@ -1,0 +1,17 @@
+.home-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 56px;
+  height: 600px;
+  margin: 40px auto;
+  align-items: center;
+}
+
+.home-section-description {
+  margin: 24px 0;
+  font-size: 18px;
+}
+
+.home-section img {
+  border-radius: 32px;
+}

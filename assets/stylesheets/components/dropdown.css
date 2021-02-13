@@ -1,0 +1,24 @@
+.dropdown {
+  padding: 16px 20px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.dropdown .header {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.dropdown p {
+  font-weight: normal;
+  font-size: 14px;
+
+}
+
+.dropdown a {
+  display: block;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #333333;
+}
