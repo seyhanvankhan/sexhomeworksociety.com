@@ -18,3 +18,8 @@
   font-weight: bold;
   border-radius: 0 16px 16px 0;
 }
+
+form {
+  display: flex;
+  justify-content: center;
+}
