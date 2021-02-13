@@ -1,0 +1,16 @@
+.cta-red {
+  padding: 16px 24px;
+  background: #EB5757;
+  border-radius: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-outline  {
+  border-radius: 40px;
+  border: 2px solid #EB5757;
+  padding: 12px 20px;
+  font-size: 14px;
+  color: #EB5757;
+  font-weight: bold;
+}

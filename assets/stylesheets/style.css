@@ -5,11 +5,13 @@
 @import url(components/logo.css);
 @import url(components/footer.css);
 @import url(components/discovery-call.css);
+@import url(components/home-section.css);
+@import url(components/buttons.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
 
 body {
-  color: #333333;
+  color: #4f4f4f;
   margin: 0;
 }
 
@@ -43,3 +45,9 @@ a {
   cursor: pointer;
 }
 
+.pretitle {
+  color: #EB5757;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 0.08em;
+}
