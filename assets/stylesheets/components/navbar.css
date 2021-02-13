@@ -5,6 +5,7 @@
 .menu li {
   display: inline;
   padding: 0 24px;
+  font-size: 14px;
 }
 
 nav {
@@ -24,4 +25,8 @@ nav {
   background: white;
   color: #EB5757 !important;
   font-weight: bold;
+}
+
+.courses, .courses svg {
+  vertical-align: middle;
 }
