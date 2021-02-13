@@ -1,7 +1,7 @@
 .home-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
+  grid-gap: 56px;
   height: 600px;
   margin: 40px auto;
   align-items: center;
