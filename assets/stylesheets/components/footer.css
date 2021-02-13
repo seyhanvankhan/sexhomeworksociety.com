@@ -13,3 +13,14 @@ footer p {
   margin: 56px;
   color: #828282;
 }
+
+.small-print {
+  font-size: 14px;
+  margin: 0;
+  line-height: 160%;
+  font-weight: normal;
+}
+
+.social-media {
+  margin-top: 16px;
+}
