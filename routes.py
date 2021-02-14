@@ -146,6 +146,6 @@ def not_found(e):
 if __name__ == "__main__":
 	ipAddress = gethostbyname_ex(gethostname())[-1][-1]
 	if ipAddress[:3] == "192":
-		app.run(debug=True, host=ipAddress)
+		app.run(debug=True)
 	else:
 		app.run(debug=True)
